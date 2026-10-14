@@ -1,0 +1,7 @@
+[project]
+name = "forge-permit"
+version = "0.1.0"
+description = "Bounded synthetic capability-broker feasibility demonstration"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = []

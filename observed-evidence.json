@@ -1,0 +1,52 @@
+{
+  "evidence_type": "prior source observation; not a fresh reproduction",
+  "fresh_reproduction": null,
+  "limitations": [
+    "Feasibility prototype, not production security certification or general-purpose agent execution service.",
+    "macOS Seatbelt via deprecated sandbox_init is a feasibility dependency; direct sandbox-exec failed during dynamic-loader startup.",
+    "System/Python contents and general filesystem metadata remain readable; metadata secrecy is not promised.",
+    "No CPU/memory isolation or hostile native-code escape resistance is qualified.",
+    "Synthetic scripted probes are not proof against every malicious agent; no LLM reliability, grant acceptance, concept benchmark, Linux isolation, or shared deployment is claimed.",
+    "Read denials are based on probe OS exceptions, not independent kernel tracing.",
+    "Input/export roots must be privately owned and not mutated by a hostile host; receipts are local and not tamper-proof against the trusted host.",
+    "Capability expiry uses wall-clock time; restart recovery and clock rollback resistance are future work.",
+    "Historical test evidence; publication does not represent grant submission or approval."
+  ],
+  "observed_checks": {
+    "all_intents_completed": true,
+    "child_performed_export": true,
+    "control_export_created": true,
+    "direct_bypass_denied": true,
+    "exact_report": true,
+    "export_hash_matches": true,
+    "input_unchanged": true,
+    "no_sandbox_network_connection": true,
+    "only_declared_export": true,
+    "parent_receipt_outcomes": true,
+    "positive_controls": true,
+    "private_canary_unchanged": true,
+    "receipt_action_identity": true
+  },
+  "observed_demo_run_exit_codes": {
+    "clean-demo": 0,
+    "source-demo": 0
+  },
+  "observed_platform": "macOS 27.0.1 arm64",
+  "observed_python": "3.13.12 (conda-forge)",
+  "observed_status": "pass",
+  "observed_test_count": 17,
+  "observed_test_run_exit_codes": {
+    "clean-tests": 0,
+    "source-tests": 0
+  },
+  "original_implementation_sha256": {
+    "forge_permit/__init__.py": "6c56bd1e4e42bbdc43d2d3dcbde6dee55dcc3aaaab4f8ec0b5919bfdec9cd0eb",
+    "forge_permit/__main__.py": "7e263d5813fa4efa36d65b3ed90afaeaef7dddd70b68c05cd6d263c2209dbdf4",
+    "forge_permit/bootstrap.py": "c39d7aac4d0ddc149ca2ac61ecf446a09dd2e450bbda78937aad2ff0fc03fedc",
+    "forge_permit/broker.py": "8ee55f803353e9a7cb7c2a5d58785278061e49e0f9973461c7f55ff8aac43932",
+    "forge_permit/demo.py": "25c9bee96d93d6848ac0c59ddd648579eba952f0d3a181c449a017177fb6dbda",
+    "forge_permit/sandbox.py": "1c8c073f172490356bf02ea36b2723d55f7354ada15c497f7c64bec607212800",
+    "forge_permit/scripted_agent.py": "585982c3d8f700bc57978eb694029dad32a114a7eeb91413010c894172072488"
+  },
+  "schema": "forge-permit-review-observation-v1"
+}

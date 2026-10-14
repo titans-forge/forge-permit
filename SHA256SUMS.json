@@ -1,0 +1,18 @@
+{
+  "DEMO_WALKTHROUGH.md": "f5ebae397bd26cb66f6cd8ac0b946b6a4500e4de2891464642c36a7b5981a46c",
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "NOTICE": "2af21ac129140ae9274864028f49606ef9fac978b006081cb13f5f6ebc998698",
+  "README.md": "9c0185350b87bd004967116b52a99ff4662da68a9f274d19038bc82b27e57a20",
+  "REPRODUCE.md": "65cf7b3755a7077e61ed5e90ae614cfa20429d61c3936c86f82ffac6ed43e3f7",
+  "forge_permit/__init__.py": "6c56bd1e4e42bbdc43d2d3dcbde6dee55dcc3aaaab4f8ec0b5919bfdec9cd0eb",
+  "forge_permit/__main__.py": "7e263d5813fa4efa36d65b3ed90afaeaef7dddd70b68c05cd6d263c2209dbdf4",
+  "forge_permit/bootstrap.py": "c39d7aac4d0ddc149ca2ac61ecf446a09dd2e450bbda78937aad2ff0fc03fedc",
+  "forge_permit/broker.py": "8ee55f803353e9a7cb7c2a5d58785278061e49e0f9973461c7f55ff8aac43932",
+  "forge_permit/demo.py": "25c9bee96d93d6848ac0c59ddd648579eba952f0d3a181c449a017177fb6dbda",
+  "forge_permit/sandbox.py": "1c8c073f172490356bf02ea36b2723d55f7354ada15c497f7c64bec607212800",
+  "forge_permit/scripted_agent.py": "585982c3d8f700bc57978eb694029dad32a114a7eeb91413010c894172072488",
+  "observed-evidence.json": "8dec69c544c24f8d8e474f8032ae54b974e234bc3800f5b55b512b2697d51580",
+  "pyproject.toml": "9272028622d4358cb4be45eb09d773ae80b6887abb81bfca35c0d12a15459a08",
+  "tests/test_broker.py": "efa70540c0b8219389d94d9a405f4c89c6cbc085d54608b462fad64d0f065056",
+  "tests/test_sandbox.py": "6f214eb72ebb1a115f6f1205076f517e10a519d262bf7bc63f82b7b0106be635"
+}
